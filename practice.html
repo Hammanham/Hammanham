@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hamman Matage - Expert Web Developer</title>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #121212;
+            color: white;
+            text-align: center;
+        }
+        header {
+            background: linear-gradient(135deg, #ff7eb3, #ff758c);
+            padding: 50px 20px;
+            font-size: 1.5rem;
+        }
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: auto;
+        }
+        .hero {
+            padding: 50px 20px;
+            text-align: center;
+        }
+        .hero h1 {
+            font-size: 3rem;
+            margin: 0;
+        }
+        .hero p {
+            font-size: 1.2rem;
+            opacity: 0.8;
+        }
+        .projects, .contact {
+            background: #1e1e1e;
+            padding: 40px 20px;
+            margin: 30px 0;
+            border-radius: 10px;
+        }
+        .project-card {
+            background: #333;
+            padding: 20px;
+            margin: 10px;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.1);
+        }
+        button {
+            background: #ff758c;
+            border: none;
+            padding: 15px 30px;
+            color: white;
+            font-size: 1rem;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: 0.3s;
+        }
+        button:hover {
+            background: #ff5a77;
+        }
+        footer {
+            background: #222;
+            padding: 20px;
+            margin-top: 20px;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: none;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Hamman Matage</h1>
+        <p>Expert Web Developer & Designer | Creating Stunning Digital Experiences</p>
+    </header>
+    <div class="container">
+        <section class="hero">
+            <h1>Welcome to My World of Innovation</h1>
+            <p>Designing and developing high-performance, visually stunning websites.</p>
+            <button onclick="location.href='#contact'">Hire Me</button>
+        </section>
+        <section class="projects">
+            <h2>Featured Projects</h2>
+            <div class="project-card">
+                <h3>Next-Gen E-commerce Platform</h3>
+                <p>A seamless shopping experience powered by modern web technologies.</p>
+            </div>
+            <div class="project-card">
+                <h3>Interactive Portfolio</h3>
+                <p>A visually captivating portfolio showcasing unique animations and responsiveness.</p>
+            </div>
+        </section>
+        <section class="contact" id="contact">
+            <h2>Contact Me</h2>
+            <p>Email: <a href="mailto:www.hammanham22@gmail.com" style="color: #ff758c;">www.hammanham22@gmail.com</a></p>
+            <p>Phone: 0723171982</p>
+            <form class="contact-form" action="#" method="POST">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2025 Hamman Matage | Expert Web Developer & Designer</p>
+    </footer>
+</body>
+</html>
+
